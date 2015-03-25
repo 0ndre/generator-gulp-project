@@ -1,0 +1,41 @@
+{
+  "name": "generator-gulp-project",
+  "version": "1.0.0",
+  "description": "Yeoman generator that scaffolds out a new front-end web project that uses Gulp.",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "0ndre/generator-gulp-project",
+  "author": {
+    "name": "André Lee",
+    "email": "andrelee0@gmail.com",
+    "url": "https://github.com/0ndre"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "cms",
+    "craft",
+    "gulp",
+    "expressionengine",
+    "wordpress"
+  ],
+  "dependencies": {
+    "yeoman-generator": "~0.16.0",
+    "chalk": "~0.4.0",
+    "yosay": "^0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  }
+}
